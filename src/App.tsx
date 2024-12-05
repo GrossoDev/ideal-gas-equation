@@ -10,8 +10,13 @@ function App() {
         <Calculator />
       </div>
 
-      <footer className="flex justify-center items-center bg-zinc-950 w-full h-32">
-        Giuliano Rosso, 2024
+      <footer className="flex flex-col justify-center items-center bg-zinc-950 w-full h-32">
+        <span>
+          Giuliano Rosso, 2024
+        </span>
+        <span>
+          <a href="https://github.com/GrossoDev/ideal-gas-equation">Repo en Github</a>
+        </span>
       </footer>
     </div>
   );
