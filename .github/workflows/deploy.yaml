@@ -20,8 +20,7 @@ jobs:
       - name: Build gh-pages
         run: |
           deno --version
-          deno install --allow-read --allow-write --allow-net --allow-env --allow-run
-          deno build
+          deno task build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
