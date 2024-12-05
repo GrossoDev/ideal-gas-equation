@@ -102,3 +102,6 @@ deno task dev
 
 ### Abrir en el Navegador
 Visita [http://localhost:5173/ideal-gas-equation/](http://localhost:5173/ideal-gas-equation/) para usar la calculadora.
+
+## Autor
+Giuliano Rosso, 2024
